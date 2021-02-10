@@ -1,0 +1,36 @@
+Algoritmo ordendenumeros
+	Definir n1 Como Entero
+	Definir n2 Como Entero
+	Definir n3 Como Entero
+	Escribir 'n1'
+	Leer n1
+	Escribir 'n2'
+	Leer n2
+	Escribir 'n3'
+	Leer n3
+	Si (n1>n2 Y n2>n3) Entonces
+		Escribir n1,n2,n3
+	    SiNo Si (n1>n3 Y n3>n2) Entonces
+				Escribir n1,n3,n2
+			
+	    SiNo Si (n2>n1 Y n1>n3) Entonces
+				Escribir n2,n1,n3
+		     
+		SiNo Si (n2>n3 Y n3>n1) Entonces
+				Escribir n2,n3,n1
+		     
+		SiNo Si (n3>n1 Y n1>n2) Entonces
+				Escribir n3,n1,n2
+		     
+		SiNo Si (n3>n2 Y n2>n1) Entonces
+				Escribir n3,n2,n1
+		     
+		 FinSi
+		 FinSi
+		 FinSi
+		 FinSi
+		 FinSi
+	FinSi
+	
+FinAlgoritmo
+
